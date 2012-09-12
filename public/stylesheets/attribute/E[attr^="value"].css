@@ -1,0 +1,11 @@
+.demo a[href^="http://"] {
+    background: orange;
+    color: green;
+}
+
+.demo a[href^="mailto:"] {
+    background: green;
+    color: orange;
+}
+/*E[attr^="value"]属性选择器，指的是选择attr属性值以“value”开头的所有元素，
+     换句话说，选择的属性其以对应的属性值是以“value”开始的，一起来看个实例：*/

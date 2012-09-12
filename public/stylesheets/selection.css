@@ -1,0 +1,11 @@
+p::selection {
+    background: red;
+    color: #fff;
+}
+p::-moz-selection {
+    background: red;
+    color: #fff;
+}
+/*大家都知道浏览器对选中的文本默认样式都是统一的，Windows下是一个深蓝色的背景，白字的前景，而在Mac下是一个淡蓝色背景，
+  白色字体，就如上图所展示的一样，自从有了这个“::selection”选择器后，我们在部分浏览器中可以设置你所需要的样式，
+*/

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML >
+<html>
+<head>
+    <title>attribute selector</title>
+    <script type ="text/javascript" src="./javascripts/jquery-1.7.1.js"></script>
+    <script type ="text/javascript" src="./javascripts/attribute.js"></script>
+    <link rel="stylesheet" href="./stylesheets/attribute.css">
+</head>
+<body>
+<select id="selector" onchange="selectChange()">
+    <option ></option>
+    <option value='E[attr^="value"]'>E[attr^="value"]</option>
+    <option value='E[attr$="value"]'>E[attr$="value"]</option>
+    <option value='E[attr*="value"]'>E[attr*="value"]</option>
+</select>
+<div class="demo clearfix">
+    <a href="http://www.w3cplus.com"  title="w3cplus">1</a>
+    <a href=""  title="test website" >2</a>
+    <a href="sites/file/test.html"  title="this is a link" >3</a>
+    <a href="sites/file/test.png"  >4</a>
+    <a href="sites/file/image.jpg"  title="zh-cn">5</a>
+    <a href="mailto:w3cplus@hotmail" title="website link" >6</a>
+    <a href=""  title="open the website" >7</a>
+    <a href=""  title="close the website" >8</a>
+    <a href=""  title="http://www.sina.com">9</a>
+    <a href="" >10</a>
+</div>
+</body>
+</html>

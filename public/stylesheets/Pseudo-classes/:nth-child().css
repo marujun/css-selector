@@ -1,0 +1,16 @@
+.demo li:nth-child(4) {
+    background: lime;
+}
+
+/*:nth-child()可以选择某个的一个或多个特定的子元素，你可以按这种方式进行选择：*/
+
+/*:nth-child(length);参数是具体数字*/
+/*:nth-child(n);参数是n,n从0开始计算*/
+/*:nth-child(n*length)n的倍数选择，n从0开始算*/
+/*:nth-child(n+length);选择大于length后面的元素*/
+/*:nth-child(-n+length)选择小于length前面的元素*/
+/*:nth-child(n*length+1);表示隔几选一*/
+/*上面length为整数*/
+
+/*:nth-child()可以定义他的值（值可以是整数，也可以是表达式），*/
+/*如上面所示，用来选择特定的子元素，对于这个我们直接看实例，比我说的更好理解。*/

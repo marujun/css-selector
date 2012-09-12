@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>basic selector</title>
+    <script type ="text/javascript" src="./javascripts/jquery-1.7.1.js"></script>
+    <script type ="text/javascript" src="./javascripts/Pseudo-classes.js"></script>
+    <link rel="stylesheet" href="./stylesheets/Pseudo-classes.css">
+</head>
+<body>
+<select id="selector" onchange="selectChange()">
+    <option ></option>
+    <option value="after&&before">after&&before</option>
+    <option value=":last-child">:last-child</option>
+    <option value=":nth-child()">:nth-child()</option>
+    <option value=":nth-last-child()">:nth-last-child()</option>
+    <option value=":nth-of-type">:nth-of-type</option>
+    <option value=":nth-last-of-type">:nth-last-of-type</option>
+    <option value=":only-child&&:only-of-type">only-child&&:only-of-type</option>
+</select>
+<div class="demo clearfix">
+    <ul >
+        <li class="first links odd" id="first"><a href="">1</a></li>
+        <li class="links even"><a href="">2</a></li>
+        <li class="links odd"><a href="">3</a></li>
+        <li class="links even"><a href="">4</a></li>
+        <li class="links odd"><a href="">5</a></li>
+        <li class="links even"><a href="">6</a></li>
+        <li class="links odd"><a href="">7</a></li>
+        <li class="links even"><a href="">8</a></li>
+        <li class="links odd"><a href="">9</a></li>
+        <li class="links even last" id="last"><a href="">10</a></li>
+    </ul>
+</div>
+
+<div class="post">
+    <p>Lorem ipsum dolor sit amet, consectetur</p>
+    <p>Lorem ipsum dolor sit amet, consectetur</p>
+</div>
+<div class="post">
+    <p>Lorem ipsum dolor sit amet, consectetur</p>
+</div>
+</body>
+</html>

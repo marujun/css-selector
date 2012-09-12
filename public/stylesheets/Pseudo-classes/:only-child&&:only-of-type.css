@@ -1,0 +1,8 @@
+
+.post p:only-child {
+    background: red;
+    display: block;
+}
+.post p{
+    display: block;
+}

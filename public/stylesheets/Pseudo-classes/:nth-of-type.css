@@ -1,0 +1,7 @@
+.demo li:nth-of-type(even) {
+    background-color: lime;
+}
+/*even用来选择li元素，并让他每隔一个li元素就有不同的样式*/
+
+/*:nth-of-type类似于:nth-child，不同的是他只计算选择器中指定的那个元素,
+   其实我们前面的实例都是指定了具体的元素，这个选择器主要对用来定位元素中包含了好多不同类型的元素是很有用处*/

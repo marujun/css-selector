@@ -1,0 +1,33 @@
+body {
+  /*padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.demo {
+    width: 550px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 150px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.demo a {
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    float: left;
+    display: block;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background: #f36;
+    color: green;
+    margin-right: 14px;
+    text-decoration: none;
+}

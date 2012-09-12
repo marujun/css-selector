@@ -1,0 +1,6 @@
+.demo li:nth-last-child(4) {
+    background: lime;
+}
+
+/*":nth-last-child()"选择器和前面的":nth-child()"很相似，只是这里多了一个last，
+所以他起的作用就和前面的":nth-child"不一样了，他只要是从最后一个元素开始算，来选择特定元素。*/
